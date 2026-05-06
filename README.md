@@ -37,6 +37,8 @@ La Constitución Corporativa que articulas en Adoption es la misma que materiali
 | Myrmion Federation — Especificaciones técnicas | ⏳ Planeado |
 
 ## Estructura del repositorio
+
+```
 myrmion/
 ├── README.md                      ← este archivo
 ├── LICENSE
@@ -45,17 +47,18 @@ myrmion/
 │   ├── adoption/
 │   │   └── manifesto.md          ← manifiesto detallado de Adoption
 │   └── federation/
-│       └── manifesto.md          ← manifiesto detallado de Federation (en preparación)
+│       └── manifesto.md          ← manifiesto detallado de Federation
 ├── templates/
 │   ├── adoption/                 ← plantillas de Constitución Corporativa, capas departamentales (en preparación)
 │   └── federation/               ← plantillas de policy, esquemas MCP corporativos (planeado)
 └── examples/                     ← casos de uso anonimizados (en preparación)
+```
 
 ## Cómo empezar
 
 1. Lee el [manifiesto paraguas](./docs/manifesto.md) para entender el ecosistema en conjunto.
 2. Si tu organización está adoptando IA mediante productos comerciales, sigue con el [manifiesto de Myrmion Adoption](./docs/adoption/manifesto.md).
-3. Si tu organización ya tiene agentes departamentales y necesita que se inter-comuniquen con gobernanza, sigue con el manifiesto de Myrmion Federation (./docs/federation/manifesto.md).
+3. Si tu organización ya tiene agentes departamentales y necesita que se inter-comuniquen con gobernanza, sigue con el [manifiesto de Myrmion Federation](./docs/federation/manifesto.md).
 
 ## Cómo contribuir
 
