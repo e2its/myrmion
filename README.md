@@ -1,8 +1,27 @@
+<table>
+<tr>
+<td width="140" valign="top">
+<img src="./assets/myrmion-logo.png" alt="Myrmion" width="120">
+</td>
+<td valign="top">
+
 # Myrmion
 
 > Ecosistema opensource para articular la adopción corporativa de IA con cultura propia.
 
+</td>
+</tr>
+</table>
+
 Myrmion existe porque la mayoría de empresas que adoptan IA hoy lo hacen comprando licencias de productos comerciales — Copilot, Claude, ChatGPT Enterprise, Gemini Enterprise — y descubren a los seis meses que sus asistentes hablan más como el proveedor que como ellas. Myrmion propone un método para que eso no pase, y para que el método siga sirviendo cuando la organización gradúa a sistemas de agentes federados.
+
+## Por qué Myrmion
+
+El nombre Myrmion remite a *myrmex* — hormiga en griego — y a los mirmidones, soldados de élite de Aquiles, conocidos por actuar como una sola unidad bajo un mando común sin perder eficacia individual. Las dos imágenes apuntan al mismo problema: cómo coordinar muchos agentes — humanos, programáticos o productos comerciales asistidos por IA — de forma que actúen como una organización coherente sin ahogar la autonomía local de cada dominio.
+
+Una colonia de hormigas es la referencia canónica de inteligencia colectiva con gobernanza distribuida. Cada individuo sigue reglas locales, hereda criterios comunes, y emerge un comportamiento coordinado a nivel sistema sin que nadie esté dirigiendo cada decisión. La falange de mirmidones añade el otro eje: agentes coordinados con disciplina técnica bajo un mando único, propagando contexto cultural en cada movimiento, manteniendo la cadena de decisiones auditable.
+
+Las dos imágenes articulan el trayecto del ecosistema: **empiezas por la colonia y evolucionas a la falange cuando tu organización lo necesita**.
 
 ## El ecosistema
 
@@ -18,10 +37,11 @@ Framework para empresas que adoptan IA mediante productos comerciales. Modelado 
 
 Framework para organizaciones que han superado la adopción ligera y necesitan que sus agentes departamentales se invoquen mutuamente con gobernanza federada. Extiende el protocolo MCP con una capa de gobernanza culturalmente consciente, apoyándose en infraestructura opensource existente (gateways MCP, toolkits de governance de agentes). Audiencia: CIOs, jefes de plataforma, tech leads.
 
-📖 [Manifiesto de Myrmion Federation](./docs/federation/manifesto.md) 
+📖 [Manifiesto de Myrmion Federation](./docs/federation/manifesto.md)
+
 ## Por qué dos fases y no una
 
-Porque el problema cultural y el técnico tienen ritmos distintos. Modelar la cultura corporativa para que los asistentes la hereden es un ejercicio organizativo que cualquier empresa puede arrancar la próxima semana sin mover infraestructura. Federar agentes programáticos con gobernanza es un proyecto de plataforma que solo tiene sentido cuando la cultura ya está articulada. **Empiezas por la colonia y evolucionas a la falange cuando tu organización lo necesita.**
+Porque el problema cultural y el técnico tienen ritmos distintos. Modelar la cultura corporativa para que los asistentes la hereden es un ejercicio organizativo que cualquier empresa puede arrancar la próxima semana sin mover infraestructura. Federar agentes programáticos con gobernanza es un proyecto de plataforma que solo tiene sentido cuando la cultura ya está articulada.
 
 La Constitución Corporativa que articulas en Adoption es la misma que materializas programáticamente en Federation. Lo que cambia es el grado de programaticidad, no la cultura ni el método.
 
@@ -31,9 +51,9 @@ La Constitución Corporativa que articulas en Adoption es la misma que materiali
 |---|---|
 | Manifiesto Myrmion (paraguas) | ✅ v1.0 |
 | Myrmion Adoption — Manifiesto | ✅ v1.0 |
-| Myrmion Adoption — Plantillas | 🚧 En preparación |
+| Myrmion Adoption — Plantillas (Capa 1, 2 y 3) | ✅ v1.0 |
 | Myrmion Adoption — Apéndice de mapeo a productos comerciales | 🚧 En preparación |
-| Myrmion Federation — Manifiesto | ✅ v1.0|
+| Myrmion Federation — Manifiesto | ✅ v1.0 |
 | Myrmion Federation — Especificaciones técnicas | ⏳ Planeado |
 
 ## Estructura del repositorio
@@ -42,6 +62,8 @@ La Constitución Corporativa que articulas en Adoption es la misma que materiali
 myrmion/
 ├── README.md                      ← este archivo
 ├── LICENSE
+├── assets/
+│   └── myrmion-logo.png          ← logo del proyecto
 ├── docs/
 │   ├── manifesto.md              ← manifiesto paraguas (corto)
 │   ├── adoption/
@@ -49,7 +71,7 @@ myrmion/
 │   └── federation/
 │       └── manifesto.md          ← manifiesto detallado de Federation
 ├── templates/
-│   ├── adoption/                 ← plantillas de Constitución Corporativa, capas departamentales (en preparación)
+│   ├── adoption/                 ← plantillas y ejemplos de Marco Regulatorio, Constitución y capas departamentales
 │   └── federation/               ← plantillas de policy, esquemas MCP corporativos (planeado)
 └── examples/                     ← casos de uso anonimizados (en preparación)
 ```
