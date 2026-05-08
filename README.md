@@ -18,8 +18,7 @@ Framework para empresas que adoptan IA mediante productos comerciales. Modelado 
 
 Framework para organizaciones que han superado la adopción ligera y necesitan que sus agentes departamentales se invoquen mutuamente con gobernanza federada. Extiende el protocolo MCP con una capa de gobernanza culturalmente consciente, apoyándose en infraestructura opensource existente (gateways MCP, toolkits de governance de agentes). Audiencia: CIOs, jefes de plataforma, tech leads.
 
-📖 [Manifiesto de Myrmion Federation](./docs/federation/manifesto.md) *(en preparación)*
-
+📖 [Manifiesto de Myrmion Federation](./docs/federation/manifesto.md) 
 ## Por qué dos fases y no una
 
 Porque el problema cultural y el técnico tienen ritmos distintos. Modelar la cultura corporativa para que los asistentes la hereden es un ejercicio organizativo que cualquier empresa puede arrancar la próxima semana sin mover infraestructura. Federar agentes programáticos con gobernanza es un proyecto de plataforma que solo tiene sentido cuando la cultura ya está articulada. **Empiezas por la colonia y evolucionas a la falange cuando tu organización lo necesita.**
@@ -34,10 +33,12 @@ La Constitución Corporativa que articulas en Adoption es la misma que materiali
 | Myrmion Adoption — Manifiesto | ✅ v1.0 |
 | Myrmion Adoption — Plantillas | 🚧 En preparación |
 | Myrmion Adoption — Apéndice de mapeo a productos comerciales | 🚧 En preparación |
-| Myrmion Federation — Manifiesto | 🚧 En preparación |
+| Myrmion Federation — Manifiesto | "✅ v1.0|
 | Myrmion Federation — Especificaciones técnicas | ⏳ Planeado |
 
 ## Estructura del repositorio
+
+```
 myrmion/
 ├── README.md                      ← este archivo
 ├── LICENSE
@@ -46,17 +47,18 @@ myrmion/
 │   ├── adoption/
 │   │   └── manifesto.md          ← manifiesto detallado de Adoption
 │   └── federation/
-│       └── manifesto.md          ← manifiesto detallado de Federation (en preparación)
+│       └── manifesto.md          ← manifiesto detallado de Federation
 ├── templates/
 │   ├── adoption/                 ← plantillas de Constitución Corporativa, capas departamentales (en preparación)
 │   └── federation/               ← plantillas de policy, esquemas MCP corporativos (planeado)
 └── examples/                     ← casos de uso anonimizados (en preparación)
+```
 
 ## Cómo empezar
 
 1. Lee el [manifiesto paraguas](./docs/manifesto.md) para entender el ecosistema en conjunto.
 2. Si tu organización está adoptando IA mediante productos comerciales, sigue con el [manifiesto de Myrmion Adoption](./docs/adoption/manifesto.md).
-3. Si tu organización ya tiene agentes departamentales y necesita que se inter-comuniquen con gobernanza, sigue con el manifiesto de Myrmion Federation cuando esté disponible.
+3. Si tu organización ya tiene agentes departamentales y necesita que se inter-comuniquen con gobernanza, sigue con el [manifiesto de Myrmion Federation](./docs/federation/manifesto.md).
 
 ## Cómo contribuir
 
@@ -68,4 +70,4 @@ Este proyecto se distribuye bajo licencia [MIT](./LICENSE). Uso libre, comercial
 
 ## Autor
 
-[Jose Luis Sanchez del Coso — http://jose.e2its.com, www.e2its.com, www.linkedin.com/in/jlsdc]
+Jose Luis Sanchez del Coso — [jose.e2its.com](https://jose.e2its.com), [www.e2its.com](https://www.e2its.com), [linkedin.com/in/jlsdc](https://www.linkedin.com/in/jlsdc)
