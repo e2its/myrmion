@@ -241,40 +241,8 @@ Esta plantilla guía a una organización en la articulación de su Marco Regulat
 
 ---
 
-## Anexo — Ejemplo rellenado
-
-*(Ejemplo orientativo basado en una consultora europea de tamaño medio. No es una organización real. Solo se rellena un subconjunto de campos para ilustrar el nivel de detalle esperado.)*
-
-**Identificación:**
-- Nombre legal: *Consultora Modelo S.L.*
-- Jurisdicción de constitución: España
-- Jurisdicciones operativas: España, Portugal, Francia, Italia
-- Sector: Servicios profesionales B2B (consultoría tecnológica)
-- Categorías de datos: Datos personales de empleados de clientes, propiedad intelectual del cliente bajo NDA, datos comerciales propios
-- Tamaño: 80 empleados, 12M€ facturación anual
-
-**Protección de datos personales:**
-- Marcos aplicables: RGPD, LOPDGDD, equivalentes nacionales en Portugal, Francia e Italia
-- Obligaciones operativas: minimización en todas las interacciones con asistentes; prohibición de subir datos personales identificables del cliente a productos de IA sin DPA firmado con el proveedor; aplicar reglas de retención del cliente cuando sean más estrictas que las propias
-- Custodio: DPO interno, con apoyo de despacho externo para Francia e Italia
-
-**Regulación específica de IA:**
-- Marcos aplicables: EU AI Act
-- Clasificación: Casos de uso actuales caen en riesgo mínimo (asistentes de productividad interna) y riesgo limitado (asistentes que generan outputs para clientes con etiquetado de origen IA). Sin casos de uso de alto riesgo.
-- Obligaciones operativas: identificación del asistente como tal en interacciones; etiquetado de outputs generados con IA en entregables al cliente; revisión humana antes de comunicación externa
-- Custodio: Director de Operaciones, con asesoría legal puntual
-
-**Obligaciones contractuales relevantes:**
-- Cliente X (sector financiero): no procesar datos del cliente con IA sin endorsement explícito por contrato, retención máxima 90 días tras finalización del proyecto
-- Cliente Y (sector sanitario): cláusula de subcontratación que excluye productos de IA con procesamiento fuera del EEE
-
-**Restricciones de uso:**
-- NO se autoriza el uso del plan personal de ChatGPT para datos de cliente
-- NO se autorizan asistentes para decisiones contractuales sin revisión legal
-- Productos autorizados con configuración corporativa: Microsoft Copilot for Microsoft 365, Claude Enterprise con DPA, ChatGPT Enterprise
-
----
-
 *Plantilla del ecosistema **Myrmion**. Autor original: Jose Luis Sanchez del Coso. Licencia MIT.*
 
 *Esta plantilla es la materialización de la Capa 1 — Marco Regulatorio — del Marco de Modelado descrito en el manifiesto de [Myrmion Adoption](../../docs/adoption/manifesto.md). Para entender el contexto completo del framework y cómo esta capa se relaciona con la Constitución Corporativa y las Capas Departamentales, consultar el [manifiesto paraguas](../../docs/manifesto.md).*
+
+*Para ver un Marco Regulatorio completamente rellenado como referencia orientativa, consultar [marco-regulatorio-ejemplo.md](./marco-regulatorio-ejemplo.md).*
